@@ -1,0 +1,25 @@
+{
+  "name": "node__express--buy_and_sell",
+  "version": "1.0.0",
+  "description": "Куплю. Продам",
+  "main": "./src/service/service.js",
+  "scripts": {
+    "test": "npm run eslint",
+    "eslint": "eslint --ext .js src/",
+    "start": "node ./src/service/service.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rukivbruki/Node__Express--buy_and_sell.git"
+  },
+  "author": "isaev sergey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rukivbruki/Node__Express--buy_and_sell/issues"
+  },
+  "homepage": "https://github.com/rukivbruki/Node__Express--buy_and_sell#readme",
+  "devDependencies": {
+    "eslint": "6.8.0",
+    "eslint-config-htmlacademy": "0.5.2"
+  }
+}
